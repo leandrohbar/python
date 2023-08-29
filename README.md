@@ -1,2 +1,2 @@
-# python
+# Python
 Some programs elaborated in college
