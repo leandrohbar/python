@@ -4,10 +4,7 @@
 - Quantas letras tem o primeiro nome."""
 
 #pede o nome inteiro do usuario
-nome = str(input('Digite seu nome completo = '))
-
-#remove os espaços no começo e final
-nome = nome.strip()
+nome = str(input('Digite seu nome completo = ')).strip()
 
 #print o nome maisculo e minisculo
 print(nome.upper())
