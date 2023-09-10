@@ -1,5 +1,5 @@
 import numpy as np
-num = [int(input('Digite um número: ')) for i in range(0, 3)]
+num = [int(input(f'Digite o {i}º número: ')) for i in range(1, 4)]
 maior = max(num)
 menor = min(num)
 print(f'O maior número é {maior}')
